@@ -26,16 +26,16 @@ int main()
 	    while(j<len){
 
 	        if(j==len-1){
-	            rev(i,j);
+	            rev(i,j);    // for end
 	        }
 	        else if(s[j]=='.'){
 	            rev(i,j-1);
-	            i=j+1;
+	            i=j+1;   // to split individual word separated by .
 	        }
 	        j++;
 	    }
 	    //cout<<s<<endl;
-	    rev(0,len-1);
+	    rev(0,len-1); //Reverse the whole string
 	    cout<<s<<endl;
 	}
 	return 0;
