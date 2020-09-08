@@ -1,0 +1,14 @@
+R2
+
+https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1
+https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1
+Min Platforms
+Clone a linked list with next and random pointer
+
+Count ways to reach the n'th stair
+
+tmp2_par->left = tmp;
+tmp2_par->left = tmp;
+
+
+wlrbbmqbhcdarzowkkyhiddqscdxrjmow

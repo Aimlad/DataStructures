@@ -13,11 +13,12 @@ int main()
 	    for(int i=0;i<n;i++)
 	        cin>>arr[i];
 	    cur_sum=0;
-	    
+
 	    for(int i=0;i<n;i++){
-	        if(cur_sum<=0 && arr[i]>0)		//If cur_sum <=0 and arr[i] is >0 then simply cur_sum= arr[i] because previous is of no use now
+	        if(cur_sum<=0)		//If cur_sum <=0 and arr[i] is >0 then simply cur_sum= arr[i] because previous is of no use now
 	            cur_sum=arr[i];
-	        else 
+
+	        else
 	            cur_sum+=arr[i];			// Else keep adding
 
 	        if(cur_sum>max_sum)				// If cur_sum >max at any point, then max=cur_sum
